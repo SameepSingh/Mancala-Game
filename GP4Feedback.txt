@@ -1,0 +1,272 @@
+
+
+********
+ Gradle Layout Check 
+********
+Gradle Layout is correct.
+
+********
+ Extra files found in repo 
+********
+no extra files found
+
+********
+ Missing Readme Headings 
+********
+Description
+Getting Started
+Limitations
+Author Information
+Development History
+Acknowledgments
+
+********
+ Build Check on repo as submitted 
+********
+> Task :clean UP-TO-DATE
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :jar
+> Task :assemble
+> Task :compileTestJava NO-SOURCE
+> Task :processTestResources NO-SOURCE
+> Task :testClasses UP-TO-DATE
+> Task :pmdTest NO-SOURCE
+> Task :test NO-SOURCE
+Use of deprecated attribute 'VariableDeclaratorId/@Image' by XPath rule 'FinalFieldCouldBeStatic' (in ruleset 'Design'), please use @Name instead
+
+> Task :pmdMain
+Removed misconfigured rule: LoosePackageCoupling  cause: No packages or classes specified
+222 PMD rule violations were found. See the report at: file:///Users/judi/Desktop/repositories/autograder-GP2/temp/sameep/build/reports/pmd/main.html
+
+> Task :check
+> Task :build
+
+BUILD SUCCESSFUL in 2s
+4 actionable tasks: 3 executed, 1 up-to-date
+
+
+********
+ Action Listeners Implemented using lambdas 
+********
+Total Action Listeners: 6
+Total Lambda Expressions12
+
+********
+ Missing Swing Components 
+********
+JOptionPane
+
+
+********
+ PMD Rules Violations 
+********
+> Task :clean
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :jar
+> Task :assemble
+> Task :compileTestJava NO-SOURCE
+> Task :processTestResources NO-SOURCE
+> Task :testClasses UP-TO-DATE
+> Task :pmdTest NO-SOURCE
+> Task :test NO-SOURCE
+
+> Task :pmdMain
+160 PMD rule violations were found. See the report at: file:///Users/judi/Desktop/repositories/autograder-GP2/temp/sameep/build/reports/pmd/main.html
+
+> Task :check
+> Task :build
+
+BUILD SUCCESSFUL in 2s
+4 actionable tasks: 4 executed
+
+
+********
+ Junit Test Results 
+********
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava
+> Task :processTestResources NO-SOURCE
+> Task :testClasses
+
+> Task :test FAILED
+
+AyoCaptureStonesTest > testCaptureWhenZeroPlayerOne() FAILED
+    org.opentest4j.AssertionFailedError at AyoCaptureStonesTest.java:72
+
+AyoCaptureStonesTest > testCaptureWhenZeroPlayerTwo() FAILED
+    org.opentest4j.AssertionFailedError at AyoCaptureStonesTest.java:101
+
+AyoCaptureStonesTest > testCaptureOpponentsStonesPlayerOne() FAILED
+    org.opentest4j.AssertionFailedError at AyoCaptureStonesTest.java:58
+
+AyoCaptureStonesTest > testCaptureOpponentsStonesPlayerTwo() FAILED
+    org.opentest4j.AssertionFailedError at AyoCaptureStonesTest.java:87
+
+AyoDistributeStonesTest > testCaptureStonesNonEmptyTarget() FAILED
+    org.opentest4j.AssertionFailedError at AyoDistributeStonesTest.java:195
+
+AyoDistributeStonesTest > testAddsToCorrectStorePlayerOne() FAILED
+    org.opentest4j.AssertionFailedError at AyoDistributeStonesTest.java:95
+
+AyoDistributeStonesTest > testAddsToCorrectStorePlayerTwo() FAILED
+    org.opentest4j.AssertionFailedError at AyoDistributeStonesTest.java:163
+
+AyoMoveStonesTest > testInvalidMoveOpponentSidePlayerOne() FAILED
+    org.opentest4j.AssertionFailedError at AyoMoveStonesTest.java:160
+
+AyoMoveStonesTest > testInvalidMoveOpponentSidePlayerTwo() FAILED
+    org.opentest4j.AssertionFailedError at AyoMoveStonesTest.java:289
+
+AyoMoveStonesTest > testMoveStonesMultiMoveNoCapturePlayerOne() FAILED
+    org.opentest4j.AssertionFailedError at AyoMoveStonesTest.java:100
+
+AyoMoveStonesTest > testMoveStonesMultiMoveNoCapturePlayerTwo() FAILED
+    org.opentest4j.AssertionFailedError at AyoMoveStonesTest.java:229
+
+AyoMoveStonesTest > testMoveStonesOpponentSideStopPlayerOne() FAILED
+    org.opentest4j.AssertionFailedError at AyoMoveStonesTest.java:175
+
+AyoMoveStonesTest > testMoveStonesOpponentSideStopPlayerTwo() FAILED
+    org.opentest4j.AssertionFailedError at AyoMoveStonesTest.java:305
+
+AyoMoveStonesTest > testMoveStonesReturnValPlayerOne() FAILED
+    org.opentest4j.AssertionFailedError at AyoMoveStonesTest.java:81
+
+AyoMoveStonesTest > testMoveStonesReturnValPlayerTwo() FAILED
+    org.opentest4j.AssertionFailedError at AyoMoveStonesTest.java:213
+
+AyoMoveStonesTest > testMoveStonesZeroCapturePlayerOne() FAILED
+    org.opentest4j.AssertionFailedError at AyoMoveStonesTest.java:133
+
+AyoMoveStonesTest > testMoveStonesZeroCapturePlayerTwo() FAILED
+    org.opentest4j.AssertionFailedError at AyoMoveStonesTest.java:262
+
+AyoMoveStonesTest > testMoveStonesOneMovePlayerOne() FAILED
+    org.opentest4j.AssertionFailedError at AyoMoveStonesTest.java:64
+
+AyoMoveStonesTest > testMoveStonesOneMovePlayerTwo() FAILED
+    org.opentest4j.AssertionFailedError at AyoMoveStonesTest.java:195
+
+AyoMoveStonesTest > testMoveStonesMultiMoveWithCapturePlayerOne() FAILED
+    org.opentest4j.AssertionFailedError at AyoMoveStonesTest.java:118
+
+AyoMoveStonesTest > testMoveStonesMultiMoveWithCapturePlayerTwo() FAILED
+    org.opentest4j.AssertionFailedError at AyoMoveStonesTest.java:247
+
+KalahCaptureStonesTest > testCaptureWhenZeroPlayerOne() FAILED
+    org.opentest4j.AssertionFailedError at KalahCaptureStonesTest.java:72
+
+KalahCaptureStonesTest > testCaptureWhenZeroPlayerTwo() FAILED
+    java.lang.RuntimeException at KalahCaptureStonesTest.java:100
+
+KalahCaptureStonesTest > testCaptureOpponentsStonesPlayerTwo() FAILED
+    java.lang.RuntimeException at KalahCaptureStonesTest.java:86
+
+KalahDistributeStonesTest > testSkipCorrectStorePlayerOne() FAILED
+    org.opentest4j.AssertionFailedError at KalahDistributeStonesTest.java:62
+
+KalahDistributeStonesTest > testSkipCorrectStorePlayerTwo() FAILED
+    org.opentest4j.AssertionFailedError at KalahDistributeStonesTest.java:112
+
+KalahDistributeStonesTest > testCorrectValuesInPitsPlayerOne() FAILED
+    org.opentest4j.AssertionFailedError at KalahDistributeStonesTest.java:93
+
+KalahDistributeStonesTest > testCorrectValuesInPitsPlayerTwo() FAILED
+    org.opentest4j.AssertionFailedError at KalahDistributeStonesTest.java:144
+
+KalahDistributeStonesTest > testAddsToCorrectStorePlayerOne() FAILED
+    org.opentest4j.AssertionFailedError at KalahDistributeStonesTest.java:79
+
+KalahDistributeStonesTest > testAddsToCorrectStorePlayerTwo() FAILED
+    org.opentest4j.AssertionFailedError at KalahDistributeStonesTest.java:128
+
+KalahMoveStonesTest > testInvalidMoveOpponentSidePlayerOne() FAILED
+    org.opentest4j.AssertionFailedError at KalahMoveStonesTest.java:148
+
+KalahMoveStonesTest > testInvalidMoveOpponentSidePlayerTwo() FAILED
+    org.opentest4j.AssertionFailedError at KalahMoveStonesTest.java:279
+
+KalahMoveStonesTest > testMoveStonesEndInStore() FAILED
+    org.opentest4j.AssertionFailedError at KalahMoveStonesTest.java:163
+
+KalahMoveStonesTest > testMoveStonesStopInStorePlayerTwo() FAILED
+    java.lang.RuntimeException at KalahMoveStonesTest.java:293
+
+KalahMoveStonesTest > testMoveStonesWithCapturePlayerOne() FAILED
+    org.opentest4j.AssertionFailedError at KalahMoveStonesTest.java:106
+
+KalahMoveStonesTest > testMoveStonesWithCapturePlayerTwo() FAILED
+    org.opentest4j.AssertionFailedError at KalahMoveStonesTest.java:235
+
+KalahMoveStonesTest > testMoveStonesOpponentSideStopPlayerOne() FAILED
+    org.opentest4j.AssertionFailedError at KalahMoveStonesTest.java:182
+
+KalahMoveStonesTest > testMoveStonesOpponentSideStopPlayerTwo() FAILED
+    org.opentest4j.AssertionFailedError at KalahMoveStonesTest.java:315
+
+KalahMoveStonesTest > testInvalidMoveLowerBoundPlayerOne() FAILED
+    org.opentest4j.AssertionFailedError at KalahMoveStonesTest.java:130
+        Caused by: java.lang.RuntimeException at KalahMoveStonesTest.java:131
+
+KalahMoveStonesTest > testInvalidMoveLowerBoundPlayerTwo() FAILED
+    org.opentest4j.AssertionFailedError at KalahMoveStonesTest.java:261
+        Caused by: java.lang.RuntimeException at KalahMoveStonesTest.java:262
+3 actionable tasks: 3 executed
+
+Failed to map supported failure 'org.opentest4j.AssertionFailedError: Did not throw exception on invalid move ==> Expected mancala.InvalidMoveException to be thrown, but nothing was thrown.' with mapper 'org.gradle.api.internal.tasks.testing.failure.mappers.OpenTestAssertionFailedMapper@4d9d1b69': Cannot invoke "Object.getClass()" because "obj" is null
+Failed to map supported failure 'org.opentest4j.AssertionFailedError: Did not throw exception on invalid move ==> Expected mancala.InvalidMoveException to be thrown, but nothing was thrown.' with mapper 'org.gradle.api.internal.tasks.testing.failure.mappers.OpenTestAssertionFailedMapper@4d9d1b69': Cannot invoke "Object.getClass()" because "obj" is null
+Failed to map supported failure 'org.opentest4j.AssertionFailedError: Did not throw exception on invalid move ==> Expected mancala.InvalidMoveException to be thrown, but nothing was thrown.' with mapper 'org.gradle.api.internal.tasks.testing.failure.mappers.OpenTestAssertionFailedMapper@4d9d1b69': Cannot invoke "Object.getClass()" because "obj" is null
+Failed to map supported failure 'org.opentest4j.AssertionFailedError: Did not throw exception on invalid move ==> Expected mancala.InvalidMoveException to be thrown, but nothing was thrown.' with mapper 'org.gradle.api.internal.tasks.testing.failure.mappers.OpenTestAssertionFailedMapper@4d9d1b69': Cannot invoke "Object.getClass()" because "obj" is null
+
+61 tests completed, 40 failed
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':test'.
+> There were failing tests. See the report at: file:///Users/judi/Desktop/repositories/autograder-GP2/temp/sameep/build/reports/tests/test/index.html
+
+* Try:
+> Run with --scan to get full insights.
+
+BUILD FAILED in 1s
+
+
+********
+ Polymorphism implementation 
+********
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava
+> Task :processTestResources NO-SOURCE
+> Task :testClasses
+
+> Task :test FAILED
+
+InterfacesTest > testInterfaceImplementationStore() FAILED
+    org.opentest4j.AssertionFailedError at InterfacesTest.java:39
+
+InterfacesTest > testInterfaceImplementationPit() FAILED
+    org.opentest4j.AssertionFailedError at InterfacesTest.java:27
+3 actionable tasks: 3 executed
+
+
+17 tests completed, 2 failed
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':test'.
+> There were failing tests. See the report at: file:///Users/judi/Desktop/repositories/autograder-GP2/temp/sameep/build/reports/tests/test/index.html
+
+* Try:
+> Run with --scan to get full insights.
+
+BUILD FAILED in 1s
