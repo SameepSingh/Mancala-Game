@@ -6,6 +6,7 @@ public class AyoRules extends GameRules {
         super(); // Calls the constructor of the superclass to initialize the game board.
     }
 
+
     @Override
     public int moveStones(int startPit, int playerNum) throws InvalidMoveException {
         if (startPit < 1 || startPit > 12) {
